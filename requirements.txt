@@ -1,0 +1,3 @@
+streamlit>=1.32
+plotly>=5.17
+racecontrolclient @ git+https://github.com/aad3m/racecontrol-client.git@v1.0.0
