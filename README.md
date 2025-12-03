@@ -1,4 +1,6 @@
 # 🏁 racecontrol-core  
+[![GitHub release](https://img.shields.io/github/v/release/aad3m/racecontrol-core?include_prereleases&style=for-the-badge)](https://github.com/aad3m/racecontrol-core/releases)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://racecontrol-core.streamlit.app)
 ### Streamlit Frontend for Interactive Dashboards, Analytics, and Tools
 
 `racecontrol-core` is the **application layer** of the project.  
