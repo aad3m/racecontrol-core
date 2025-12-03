@@ -115,6 +115,50 @@ except Exception as e:
 title = f"RaceControl — {season}"
 render_header(title, "Live F1 Data Powered by Jolpica")
 
+with st.expander("📘 User Guide — How to Use RaceControl", expanded=False):
+    st.markdown("""
+    # 🧭 RaceControl — User Guide
+    RaceControl is a modern Formula 1 analytics dashboard designed to give fans, fantasy players, and analysts a complete picture of the season.
+
+    ## 📊 Overview Tab
+    Quickly compare driver and team performance using dynamic charts.
+
+    ## 👤 Drivers Tab
+    Shows detailed driver standings including points, wins, and nationality.
+
+    ## 🏎️ Teams Tab
+    Explore constructor standings and overall season performance.
+
+    ## 🗺️ Race Tracker Tab
+    Review every completed race, including grid, finishing position, points, and team.
+
+    ## 🧮 Fantasy Helper Tab
+    Predict future performance using a model based on:
+    - Recent form
+    - Season performance
+    - Consistency / volatility
+    Adjust the weights in the sidebar to customize predictions.
+
+    ## ⚙️ Sidebar Controls
+    Pick season, adjust fantasy weights, choose number of recent races, and refresh data.
+
+    ## 🔄 Refresh Button
+    Force a complete reload of season data from the API.
+
+    ## 🧮 Fantasy Explained
+    The Fantasy score combines:
+    - Recent performance
+    - Season-long average
+    - Consistency vs volatility
+    Higher score = better predicted performance.
+
+    ## 📡 Offline Mode
+    The app handles API outages gracefully and keeps running.
+
+    ---
+    Enjoy exploring the 2024 F1 season! 🏁
+    """)
+
 render_kpis(
     completed_round=completed_round,
     total_races=total_races,
